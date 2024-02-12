@@ -12,15 +12,6 @@ return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
-  -- toggle comments
-  {
-    "numToStr/Comment.nvim",
-    opts = {
-      -- add any options here
-    },
-    lazy = false,
-  },
-
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
