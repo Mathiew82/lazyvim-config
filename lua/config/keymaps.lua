@@ -3,10 +3,7 @@
 -- Add any additional keymaps here
 
 -- Paste the clipboard register
--- vim.keymap.set("n", "P", '"0p')
-
--- Search functions and variables inside file
-vim.keymap.set("n", "<leader>o", "<cmd>:Telescope lsp_document_symbols<cr>")
+vim.keymap.set("n", "P", '"0p')
 
 -- Delete all buffers but the current one --
 vim.keymap.set("n", "<leader>bq", '<Esc>:%bdelete|edit #|normal`"<cr>')
