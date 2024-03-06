@@ -5,6 +5,8 @@
 -- Paste the clipboard register
 vim.keymap.set("n", "<leader>p", '"0p')
 vim.keymap.set("x", "<leader>p", '"0p')
+vim.keymap.set("n", "<leader>P", '"0P')
+vim.keymap.set("x", "<leader>P", '"0P')
 
 -- Delete all buffers but the current one --
 vim.keymap.set("n", "<leader>bq", '<Esc>:%bdelete|edit #|normal`"<cr>')
