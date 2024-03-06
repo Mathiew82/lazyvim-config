@@ -3,7 +3,8 @@
 -- Add any additional keymaps here
 
 -- Paste the clipboard register
-vim.keymap.set("n", "P", '"0p')
+vim.keymap.set("n", "<leader>p", '"0p')
+vim.keymap.set("x", "<leader>p", '"0p')
 
 -- Delete all buffers but the current one --
 vim.keymap.set("n", "<leader>bq", '<Esc>:%bdelete|edit #|normal`"<cr>')
