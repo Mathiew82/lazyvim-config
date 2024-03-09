@@ -1,4 +1,4 @@
-# 💤 MY CUSTOM [LAZYVIM](https://www.lazyvim.org/)
+# 💤 My Custom [LazyVim](https://www.lazyvim.org/)
 
 > [!NOTE]  
 > You can install, update, and remove this configuration with a small Python script I created to more easily maintain this configuration.
