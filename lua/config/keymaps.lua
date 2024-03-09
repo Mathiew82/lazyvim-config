@@ -15,6 +15,9 @@ vim.keymap.set("n", "<leader>bq", '<Esc>:%bdelete|edit #|normal`"<cr>')
 vim.keymap.set("i", "<C-d>", "<C-d>zz", { desc = "Move cursor down in the same horizontal position" })
 vim.keymap.set("i", "<C-u>", "<C-u>zz", { desc = "Move cursor up in the same horizontal position" })
 
+-- Oil keymap
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+
 -- Disable keymaps ...
 -- Insert mode
 vim.api.nvim_set_keymap("i", "<A-j>", "<Nop>", { noremap = true, silent = true })
