@@ -18,6 +18,11 @@ return {
     priority = 1000,
     opts = {
       flavour = "mocha",
+      color_overrides = {
+        mocha = {
+          base = "#111622",
+        },
+      },
     },
   },
   {
