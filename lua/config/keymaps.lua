@@ -8,6 +8,9 @@ vim.keymap.set("x", "<leader>p", '"0p', { desc = "Paste after cursor" })
 vim.keymap.set("n", "<leader>P", '"0P', { desc = "Paste before cursor" })
 vim.keymap.set("x", "<leader>P", '"0P', { desc = "Paste before cursor" })
 
+-- Refactor extract code to function
+vim.keymap.set("x", "<leader>re", ":Refactor extract ", { desc = "Refactor extract" })
+
 -- Delete all buffers but the current one --
 vim.keymap.set("n", "<leader>bq", '<Esc>:%bdelete|edit #|normal`"<cr>')
 
